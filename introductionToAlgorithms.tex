@@ -1,17 +1,26 @@
 \documentclass{book}
 \usepackage{xeCJK}
-%\setCJKmainfont{Noto Serif CJK SC}
-%\setCJKsansfont{Noto Sans CJK SC}
-\usepackage{amsmath}
+\setCJKmainfont{Noto Serif CJK SC}
+\setCJKsansfont{Noto Sans CJK SC}
+\setCJKmonofont{Noto Sans CJK SC}
+\usepackage{hyperref}
 \usepackage{amssymb}
 \usepackage{indentfirst}
-\setCJKmainfont{宋体}
-\setCJKsansfont{黑体}
-\setCJKmonofont{宋体}
 \usepackage{amsmath}
+\title{算法导论}
+\author{xxx}
 \begin{document}
+\frontmatter
+\maketitle
 \include{chapter00}
 \include{chapter01}
+\tableofcontents
+
+
+\mainmatter
 \include{chapter1}
 \include{chapter2}
+
+
+\backmatter
 \end{document}
